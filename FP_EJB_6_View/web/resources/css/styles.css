@@ -85,9 +85,9 @@
     border: hidden;
     border-radius: 5px;
 
-    -webkit-box-shadow: 2px 5px 5px rgba(50, 50, 50, 0.9);
-    -moz-box-shadow:    2px 5px 5px rgba(50, 50, 50, 0.9);
-    box-shadow:         2px 5px 5px rgba(50, 50, 50, 0.9);
+    -webkit-box-shadow: 0px 0px 14px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px 0px 14px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px 0px 14px rgba(50, 50, 50, 0.75);
 }
 
 #index_auth_form_welcome_message {
@@ -100,6 +100,45 @@
     color: #ff8c00;
     font: 18pt/16pt sans-serif;
 }
+
+.header_in_form2 {
+    color: darkgreen;
+    font: 14pt/12pt sans-serif;
+}
+
+#index_auth_input {
+    margin: 0 auto;
+
+
+}
+
+.index_input {
+    width: 120px;
+    height: 15px;
+    font: 10pt/8pt sans-serif bold !important;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

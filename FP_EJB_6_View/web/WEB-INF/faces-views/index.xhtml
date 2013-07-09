@@ -30,10 +30,24 @@
             <div id="index_auth_form">
                 <div id="index_auth_form_welcome_message">
                     <h:outputText value="#{msg['index_auth_form_welcome_message']}" styleClass="header_in_form"/>
+                    <br/>
+                    <h:outputText value="#{msg['index_auth_form_welcome_message2']}" styleClass="header_in_form2"/>
                 </div>
+                <div id="index_auth_input">
                 <h:form>
+                    <h:panelGrid columns="2" id="index_auth_form_input">
+                        <h:outputText styleClass="auth_label" value="#{msg['index_auth_form_login']}"/>
+                        <p:inputText id="index_login_login" styleClass="index_input" value="#{userController.userLogin}"/>
+                        <br/>
+                        <h:message for="index_login_login" styleClass="auth_error"/>
 
+                        <h:outputText styleClass="auth_label" value="#{msg['index_auth_form_pass']}"/>
+                        <p:inputText id="index_login_pass" styleClass="index_input" value="#{userController.userLogin}"/>
+                        <br/>
+                        <h:message for="index_login_pass" styleClass="auth_error"/>
+                    </h:panelGrid>
                 </h:form>
+                </div>
             </div>
 
         </ui:define>

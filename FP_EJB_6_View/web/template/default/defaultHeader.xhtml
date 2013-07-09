@@ -17,8 +17,7 @@
     </div>
     <div id="default_header_lang_buttons">
         <h:form>
-            <h:commandButton image="#{language.currentIcon}" id="default_header_en_icon"
-                             action="#{language.changeLocale}"/>
+            <p:commandButton image="#{language.currentIcon}" id="default_header_en_icon" update="main_form"/>
         </h:form>
     </div>
 </h:body>

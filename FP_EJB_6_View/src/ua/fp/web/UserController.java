@@ -55,8 +55,7 @@ public class UserController {
     }
 
     public String getUserLogin() {
-        UserAccountEntity res = this.userAccountService.findUser50();
-        return res.getEmail();
+        return this.userLogin;
     }
 
     public String getUserLang() {
