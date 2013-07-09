@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+
+    <persistence-unit name="FPBaseMain" transaction-type="JTA">
+        <provider>org.hibernate.ejb.HibernatePersistence</provider>
+        <jta-data-source>java:/FPDS</jta-data-source>
+        <class>ua.fp.domain.AccountEntity</class>
+        <class>ua.fp.domain.AccountRealEntity</class>
+        <class>ua.fp.domain.ExpenseCalculatorNodeEntity</class>
+        <class>ua.fp.domain.ExpenseNodeEntity</class>
+        <class>ua.fp.domain.IncomeNodeEntity</class>
+        <class>ua.fp.domain.JournalNodeEntity</class>
+        <class>ua.fp.domain.PlanningExCategoryEntity</class>
+        <class>ua.fp.domain.PlanningExSubcategoryEntity</class>
+        <class>ua.fp.domain.PlanningInCategoryEntity</class>
+        <class>ua.fp.domain.PlanningInSubcategoryEntity</class>
+        <class>ua.fp.domain.PredefinedTitlesEntity</class>
+        <class>ua.fp.domain.UserAccountEntity</class>
+        <!--<properties>-->
+            <!--<property name="hibernate.connection.url" value="jdbc:oracle:thin:@localhost:1521:XE"/>-->
+            <!--<property name="hibernate.connection.driver_class" value="oracle.jdbc.OracleDriver"/>-->
+            <!--<property name="hibernate.connection.username" value="FP"/>-->
+            <!--<property name="hibernate.connection.password" value="1091924"/>-->
+            <!--<property name="hibernate.show_sql" value="true"/>-->
+            <!--<property name="hibernate.format_sql" value="true"/>-->
+            <!--<property name="hbm2ddl.auto" value="update"/>-->
+            <!--<property name="hibernate.dialect" value="org.hibernate.dialect.Oracle10gDialect"/>-->
+            <!--<property name="hibernate.listeners.envers.autoRegister" value="false"/>-->
+        <!--</properties>-->
+    </persistence-unit>
+</persistence>

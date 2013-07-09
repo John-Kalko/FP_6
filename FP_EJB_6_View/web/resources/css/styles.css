@@ -1,0 +1,139 @@
+#header {
+
+    background-image: url(/resources/logo_2.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding-top:5px;
+    margin-bottom:5px;
+
+    /*background: rgb(229,229,229); *//* Old browsers */
+    /*background: -moz-radial-gradient(center, ellipse cover,  rgba(229,229,229,1) 0%, rgba(255,255,255,1) 73%); *//* FF3.6+ */
+    /*background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(229,229,229,1)), color-stop(73%,rgba(255,255,255,1))); *//* Chrome,Safari4+ */
+    /*background: -webkit-radial-gradient(center, ellipse cover,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 73%); *//* Chrome10+,Safari5.1+ */
+    /*background: -o-radial-gradient(center, ellipse cover,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 73%); *//* Opera 12+ */
+    /*background: -ms-radial-gradient(center, ellipse cover,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 73%); *//* IE10+ */
+    /*background: radial-gradient(ellipse at center,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 73%); *//* W3C */
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', endColorstr='#ffffff',GradientType=1 ); *//* IE6-9 fallback on horizontal gradient */
+
+    height: 80px;
+    width: 1000px;
+    margin: auto;
+
+    border-bottom: solid grey 1px;
+}
+
+#footer {
+    max-height: 100px;
+    max-width: 1000px;
+    margin: auto;
+
+    border: solid black 1px;
+}
+
+#content {
+    min-height: 1000px;
+    max-width: 1000px;
+    margin: auto;
+
+    /*border: solid black 1px;*/
+}
+
+/* Index.xhtml */
+
+#index_welcome_text_1 {
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-top:40px;
+    padding-bottom:10px;
+    margin: auto;
+    font: 32pt/30pt sans-serif;
+    text-align: center
+}
+
+#index_welcome_text_2 {
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin: auto;
+    font: 16pt/14pt sans-serif;
+    text-align: center
+}
+
+#index_welcome_image {
+    height: 300px;
+    width: 600px;
+    float: left;
+
+    margin: 10px;
+    margin-top: 20px;
+    padding: 10px;
+
+    border: solid black 1px;
+    border-radius: 5px;
+}
+
+#index_auth_form {
+    height: 300px;
+    width: 310px;
+    float: right;
+
+    margin: 10px;
+    margin-top: 20px;
+    padding: 10px;
+
+    border: hidden;
+    border-radius: 5px;
+
+    -webkit-box-shadow: 2px 5px 5px rgba(50, 50, 50, 0.9);
+    -moz-box-shadow:    2px 5px 5px rgba(50, 50, 50, 0.9);
+    box-shadow:         2px 5px 5px rgba(50, 50, 50, 0.9);
+}
+
+#index_auth_form_welcome_message {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.header_in_form {
+    color: #ff8c00;
+    font: 18pt/16pt sans-serif;
+}
+
+
+
+
+
+
+/* defaultHeader.xhtml */
+
+#default_header_lang_buttons {
+    padding-right: 5px;
+    padding-top: 40px;
+    height: 30px;
+    width: 30px;
+    float: right;
+}
+
+#default_header_logo_image {
+
+}
+
+#auth_welcome_image {
+    height: 400px;
+    width: 650px;
+    float: left;
+
+    /*border: solid black 1px;*/
+    /*border-radius: 5px;*/
+}
+
+#auth_auth_form {
+    height: 400px;
+    width: 330px;
+    float: right;
+
+    /*border: solid black 1px;*/
+    /*border-radius: 5px;*/
+}
